@@ -1,17 +1,17 @@
 {namespace template2}
 
 /**
-* @param title
-* @param surname
 **/
 {template .formletter}
+    {@param title: ?}
+    {@param surname: ?}
 {msg desc="Promotional message for ordering theme songs"}Dear {$title} {$surname}: With a name like {$title} {$surname}, shouldn't you have your own theme song? We can help!{/msg}
 {/template}
 
 /**
-* @param title
-* @param surname
 **/
 {template .formletterCall}
+    {@param title: ?}
+    {@param surname: ?}
 {call template1.formletter data="all" /}
 {/template}

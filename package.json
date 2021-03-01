@@ -1,6 +1,6 @@
 {
   "name": "soynode-backbase",
-  "version": "5.9.0",
+  "version": "5.9.1",
   "description": "Utility for working with Closure Templates, aka Soy, from within a node.js application.",
   "keywords": [
     "node",
@@ -23,18 +23,17 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "closure-templates-backbase": "20190714.0.0",
+    "backbase-closure-library": "20190709.0.0",
+    "closure-templates-backbase": "20190714.0.2",
     "fs-extra": "1.0.0",
-    "google-closure-library": "20190709.0.0",
     "q": "1.4.1"
   },
   "devDependencies": {
-    "eslint": "1.6.0",
     "nodeunit": "0.9.0",
     "nodeunitq": "0.1.1"
   },
   "license": "Apache-2.0",
   "scripts": {
-    "test": "node_modules/.bin/nodeunit test && eslint lib"
+    "test": "node_modules/.bin/nodeunit test"
   }
 }
