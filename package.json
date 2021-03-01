@@ -1,24 +1,31 @@
 {
-  "name" : "soynode",
-  "version" : "2.1.0",
-  "description" : "Utility for working with Closure Templates, aka Soy, from within a node.js application.",
-  "keywords" : ["node", "soy", "templates", "closure"],
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/Medium/soynode.git"
+  "name": "soynode-backbase",
+  "version": "5.9.0",
+  "description": "Utility for working with Closure Templates, aka Soy, from within a node.js application.",
+  "keywords": [
+    "node",
+    "soy",
+    "templates",
+    "closure"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/marapper/soynode-backbase.git"
   },
-  "homepage" : "https://github.com/Medium/soynode",
-  "author" : {
-    "name" : "Daniel Pupius",
-    "email" : "dan@medium.com",
-    "url" : "https://github.com/dpup"
+  "homepage": "https://github.com/marapper/soynode-backbase",
+  "author": {
+    "name": "Daniel Pupius",
+    "email": "dan@medium.com",
+    "url": "https://github.com/dpup"
   },
-  "main" : "./lib/soynode.js",
-  "directories": {"lib": "./lib"},
+  "main": "./lib/soynode.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "dependencies": {
-    "closure-templates": "^20160825.0.0",
+    "closure-templates-backbase": "20190714.0.0",
     "fs-extra": "1.0.0",
-    "obvious-closure-library": "^20161024.0.0",
+    "google-closure-library": "20190709.0.0",
     "q": "1.4.1"
   },
   "devDependencies": {
