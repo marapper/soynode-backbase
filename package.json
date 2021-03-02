@@ -1,6 +1,6 @@
 {
   "name": "soynode-backbase",
-  "version": "5.9.1",
+  "version": "5.9.4",
   "description": "Utility for working with Closure Templates, aka Soy, from within a node.js application.",
   "keywords": [
     "node",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "backbase-closure-library": "20190709.0.0",
-    "closure-templates-backbase": "20190714.0.2",
+    "closure-templates-backbase": "^20190714.0.4",
     "fs-extra": "1.0.0",
     "q": "1.4.1"
   },
