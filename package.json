@@ -1,5 +1,5 @@
 {
-  "name": "backbase-soynode",
+  "name": "backbase-soy-binding",
   "version": "5.9.0",
   "description": "Utility for working with Closure Templates, aka Soy, from within a node.js application.",
   "keywords": [
